@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="he">
+    <div class="container">
+        <table>
+        <form>
+            
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="your name" required></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="your email" required></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="phone" style="position:absolute;">Phone Number:</label></td>
+                    <td><input type="tel" id="phone" name="phone" required></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group" id="rty">
+                    <td><label id="yy">Gender:</label></td>
+                    <form style="margin-top: 10px;">
+                        <td><label class="radio-inline">Male:
+                          <input type="radio" name="optradio" >
+                        </label></td>
+                        <td><label class="radio-inline" style="text-align: left;">Female:
+                          <input type="radio" name="optradio">
+                        </label></td>
+                        <td><label class="radio-inline" style="margin-left: 2px;">Other:
+                          <input type="radio" name="optradio">
+                        </label></td>
+                    </form>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                <td><label id="yy" class="form-label me-5">language</label></td>
+                <td>
+                    <center>
+                    <select class="form-select" id="hit" data-type="horizontal">
+                        <option>Select Language</option>
+                        <option>English</option>
+                        <option>Hindi</option>
+                        <option>French</option>
+                        <option>Spanish</option>
+                        <option>German</option>
+                        <option>Japanese</option>
+                    </select>
+                </center>
+                </td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="zipcode">Zip Code:</label></td>
+                    <td><input type="text" id="zipcode" name="zipcode" required></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-group">
+                    <td><label id="yy" for="about">About:</label></td>
+                    <td><textarea id="about" name="about" placeholder="Write about yourself..."></textarea></td>
+                </div>
+            </tr>
+ 
+        </form>
+        
+    </table>
+    
+    <center>
+        <div id="ht" class="form-group">
+            <td><input type="submit" value="Register" style="font-weight: bold; font-size: large;"></td>
+        </div>
+    </center>
+    </div>
+    </div>
+</body>
+</html>
+
